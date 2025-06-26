@@ -1,0 +1,399 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgba(51, 51, 51,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.container{
+    width: 90%;
+    padding: 10px;
+    margin: 0px auto;
+}
+.container h1{
+    color: #ff305b;
+    float: left;
+}
+.container ul{
+    float: right;
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+.container ul li{
+   float: left;
+   padding: 15px;
+}
+.container ul li a{
+    text-decoration: none;
+    color: white;
+}
+.clear-nav{
+    clear: both;
+}
+.container li:hover a{
+    color: red;
+}
+/* =============home page=============== */
+#home{
+    height: 100vh;
+    background-image: url(images/header.jpeg);
+    background-position: center center;
+    background-size: cover;
+    overflow: auto;
+}
+#home .layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0,.8);
+    float: left;
+}
+.content{
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+}
+.content h2{
+    margin: 10px;
+    color: white;
+}
+.content h1{
+    color: #ff305b;
+}
+/* =========about============== */
+#About{
+    overflow: auto;
+}
+.cont-right{
+    float: left;
+    padding: 70px;
+    width: 50%;
+}
+.cont-right .lay{
+    background-color: rgba(0, 0, 0,.8);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+    transform: translate(20px,20%);
+    opacity: 0;
+    text-align: center;
+}
+.border:hover .lay{
+    opacity: .5;
+    transform: translate(20px,20px);
+}
+.cont-right .border{
+    border: 5px solid #555555;
+    width: 60%;
+    position: relative; 
+}
+.cont-right img{    
+    width: 100%;
+    transform: translate(20px,20px); 
+}
+.lay .icons i {
+    color: white;
+    margin-top: 50%;
+}
+.cont-left{
+    float: left;
+    margin-top: 60px;
+    padding: 40px;
+    width: 50%;
+    font-size: 20px;
+}
+.cont-left h2{
+    margin-bottom: 10px;
+    color: dimgray;
+}
+.cont-left p{
+    line-height: 20px;
+    border-bottom:1px dashed black ;
+    margin: 10px;
+}
+.cont-left ul{
+    float: left;
+    list-style: none;
+    display: table;
+    margin: 10px;
+}
+.cont-left ul li{
+    margin: 5px;
+}
+.cont-left button{
+    padding: 15px;
+    background-color: #ff305b;
+    border: none;
+    color: white;
+}
+.down:hover{
+    background-color: #f14c00;
+    cursor: pointer;
+}
+.here:hover{
+    background-color: #f14c00;
+    cursor: pointer;
+}
+/* ====================services======================== */
+#Services{
+    background-color: #f1f1f1;
+    overflow: auto;
+}
+.our{
+    text-align: center;
+    margin: 60px;
+}
+.border-line{
+    margin: 0px auto;
+    width: 10%;
+    border-bottom: 2px solid #ff305b;
+    margin-bottom: 3px;
+}
+.border-line2{
+    margin: 0px auto;
+    width: 15%;
+    border-bottom: 2px solid #ff305b;
+    margin-bottom: 3px;
+}
+.ui{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 30px;
+    transition: all 1s;
+}
+.ui i{
+    font-size: 30px;
+    color: #ff305b;
+    transition: all 1s;
+}
+.ui h2{
+    margin: 10px;
+}
+.ui:hover{
+    background-color: white;
+}
+.ui:hover i{
+    transform: scale(1.1);
+}
+
+
+/* ==================portfolio==================== */
+
+#portfolio{
+    overflow: auto;
+}
+.our-port{
+    text-align: center;
+    margin: 0px auto;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+.our-port button{
+    border: none;
+    background-color: transparent;
+    padding: 30px;
+    font-size: 15px;
+}
+ .photo{
+    float: left;
+    width: 30%;
+    margin: 20px;
+    position: relative;
+} 
+.photo .overlay{
+    background-color:black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 1s;
+}
+.photo .overlay i{
+    font-size: 20px;
+    background-color: #f10030;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+.overlay:hover{
+    opacity: .5;
+}
+.photo img{
+    width: 100%;
+} 
+/* ======================page===================== */
+.page{
+    background-color:  #f1f1f1;
+    overflow: auto;
+}
+.page1{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 80px;
+}
+.page1 p{
+    font-size: 20px;
+    margin: 10px;
+}
+.page1 i{
+    color: #ff305b;
+    font-size: 30px ;
+}
+/* ==========client======================= */
+#Testimonial{
+    overflow: auto;
+}
+.client{
+    text-align: center;
+    margin: 40px;
+}
+.feedback{
+    background-color: #f1f1f1 ;
+    margin: 0px auto;
+    width: 70%;
+    margin-bottom:20px ;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.color{
+    width:250px;
+    height: 100px;
+   background-color: #ff305b;
+    position: absolute;
+    top:-40px;
+    left: -50px;
+    transform: rotate(150deg);
+}
+.left{
+    float: left;
+}
+.left img{
+    width: 70%;
+    border-radius: 100%;
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+.right{
+    float: left;
+    color: #777777;
+}
+.right h2{
+    margin: 10px 0px;
+}
+.right a{
+    text-decoration:none; 
+    color:#777777;
+    margin: 20px 0px;
+}
+.right p{
+    margin: 30px 0px;
+}
+/* ================blog=================== */
+#Blog{
+    background-color: #f1f1f1 ;
+    overflow: auto;
+}
+.our-blog{
+    text-align: center;
+    margin: 60px;
+}
+.blog1{
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+    color: #777777;
+}
+.blog1 img{
+    width: 100%;
+}
+.blog1 p{
+    margin: 10px;
+}
+.blog1 a{
+    text-decoration: none;
+    color: #777777;
+    margin: 10px;
+    font-size: 20px;
+}
+.blog1 a:hover{
+    color: #ff305b;
+}
+/* ======================contact us======================= */
+#Contact{
+    overflow: auto;
+}
+.contactus{
+    text-align: center;
+    margin: 30px;
+}
+.inputs{
+    width: 50%;
+    margin: 0px auto;
+}
+.name input{
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+}
+.email input{
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+}
+.subject input{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+.textarea textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+.inputs button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff305b;
+    color: white;
+    margin: 20px;
+    cursor: no-drop;    
+}
+/* ===============footer============= */
+.footer{
+    background-color:#333333 ;
+    padding: 60px;
+    overflow: auto;
+    text-align: center;
+    color: white;
+}
+.footer a i{
+    margin: 10px;
+    color: white;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: #ff305b;
+}

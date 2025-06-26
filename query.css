@@ -1,0 +1,105 @@
+/* mobile */
+@media screen and (max-width:600px)  {
+    .navbar{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+    .cont-right{
+        width:100%;
+    }
+    .cont-right .border{
+        width: 100%;
+    }
+    .cont-left{
+        width: 100%;
+    }
+
+    .ui{
+        width: 100%;
+    }
+
+    .photo{
+        width: 100%;
+    }
+    .our-port button{
+        width: 100%;
+    }
+    .page1{
+        width: 100%;
+    }
+    .feedback{
+        width: 100%;
+    }
+    .blog1{
+        width: 100%;
+    }
+    .inputs{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+}
+
+/*portrait tablet and large phones */
+@media screen and (min-width:600px) {
+    .content{
+        width: 50%;
+    }
+    .cont-right{
+        width:50%;
+    }
+    .cont-right .border{
+        width: 50%;
+    }
+    .cont-left{
+        width: 50%;
+    }
+
+    .ui{
+        width: 50%;
+    }
+
+    .photo{
+        width: 44%;
+    }
+    .our-port button{
+        width: 50%;
+    }
+    .page1{
+        width: 50%;
+    }
+    .feedback{
+        width: 50%;
+    }
+    .blog1{
+        width: 50%;
+    }
+    .inputs{
+        width: 50%;
+    }
+    
+}
+
+
+/* desktops */
+@media screen and (min-width:1000px) {
+    .ui{
+        width: 25%;
+    }
+    .photo{
+        width: 30%;
+    }
+    .our-port button{
+        width: 20%;
+    }
+    .page1{
+        width: 25%;
+    }
+    .blog1{
+        width: 33.33%;
+    } 
+}
+
